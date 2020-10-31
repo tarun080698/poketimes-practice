@@ -1,0 +1,77 @@
+.form-container {
+  width: 90%;
+  padding: 10px;
+  background-color: rgb(255, 255, 255);
+  box-sizing: border-box;
+}
+
+/* Full-width input fields  */
+.form-container input[type="text"] select,
+.form-container input[type="textarea"] select {
+  width: 90%;
+  padding: 10px;
+  height: fit-content;
+  border: none;
+  background: #f1f1f1;
+  color: black;
+}
+
+.form-container input[type="text"],
+.form-container input[type="textarea"] {
+  width: 90%;
+  padding: 10px;
+  height: fit-content;
+  border: none;
+  background: #f1f1f1;
+  color: black;
+}
+
+
+label,b{
+  margin: 0px ;
+  font-size: 20px;
+  color: #C62828;
+  padding: 0px;
+  float: left;
+}
+
+btn {
+  background-color: #C62828;
+} 
+.modal {
+  display: contents;
+}
+
+.modal-header {
+  padding: 2px;
+  width: 90%;
+  height: max-content;
+  background-color: darkred;
+  color: white;
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #ffffff;
+  margin: 14px 0px;
+  padding: 5px;
+  border: 1px solid rgb(255, 255, 255);
+  width: 100%;
+  height: max-content;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  animation-name: animatetop;
+  animation-duration: 0.4s;
+}
+
+/* Add Animation */
+@keyframes animatetop {
+  from {
+    top: -50px;
+    opacity: 0;
+  }
+  to {
+    top: 0;
+    opacity: 1;
+  }
+}
