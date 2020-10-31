@@ -25,3 +25,10 @@ nav a.active{
   overflow: hidden;
   padding-left: 80px;
 }
+
+
+.card .card-content {
+  padding: 24px;
+  min-height: 180px;
+  border-radius: 0 0 2px 2px;
+}
